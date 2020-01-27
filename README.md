@@ -1,5 +1,4 @@
 # pasapalabra-game
-![Pasapalabra-game](https://gyazo.com/75dbb94ab66eb60e0bf8da9ec80e27a8)
 
 Welcome to the famous Spanish game of pasapalabra.
 
