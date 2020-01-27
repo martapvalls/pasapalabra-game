@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title> Pasapalabra Skylaber </title>
+    <link rel="icon" href='icon.jpg'>
+</head>
+<body>
+  <header></header>
+
+  <section class="rosco-container">
+      <div class= "rosco">
+        <div id="a" class="letra">A</div>
+        <div id="b" class="letra">B</div>
+        <div id="c" class="letra">C</div>
+        <div id="d" class="letra">D</div>
+        <div id="e" class="letra">E</div>
+        <div id="f" class="letra">F</div>
+        <div id="g" class="letra">G</div>
+        <div id="h" class="letra">H</div>
+        <div id="i" class="letra">I</div>
+        <div id="j" class="letra">J</div>
+        <div id="k" class="letra">K</div>
+        <div id="l" class="letra">L</div>
+        <div id="m" class="letra">M</div>
+        <div id="n" class="letra">N</div>
+        <div id="ñ" class="letra">Ñ</div>
+        <div id="o" class="letra">O</div>
+        <div id="p" class="letra">P</div>
+        <div id="q" class="letra">Q</div>
+        <div id="r" class="letra">R</div>
+        <div id="s" class="letra">S</div>
+        <div id="t" class="letra">T</div>
+        <div id="u" class="letra">U</div>
+        <div id="v" class="letra">V</div>
+        <div id="w" class="letra">W</div>
+        <div id="x" class="letra">X</div>
+        <div id="y" class="letra">Y</div>
+        <div id="z" class="letra">Z</div>
+      </div>
+  </section>
+  <section class="timer">
+      <div id="tiempo" class="tiempo"></div>
+      <div id="numeroaciertos" class="aciertos">0</div>   
+  </section>
+  <section id="instrucciones" class="instrucciones-container">
+      <div class="instrucciones">
+          <h1>BIENVENIDOS AL PASAPALABRA DE LOS SKYLABERS</h1>
+          <p>Las normas son muy sencillas:
+          </p>
+          <p>Se mostraran unas definiciones y el usuarió deberá responder con la palabra correcta.
+              No se deben utilizar acentos. Se puede usar la tecla "intro" para responder en vez del botón. 
+              El usuario tiene la opción de pulsar Pasapalabra (o utilizar la tecla "espacio") y dejar esa definición para más adelante. 
+          </p>
+          <p>¿Estás preparado/a para jugar? ¡El tiempo empezará y no para!</p>
+          <form id="nombre" class="nombre">
+              <label for="usuario">¿Cuál es tu nombre?</label>
+              <input type="text" class="usuario" id="usuario" required value = "">
+                          
+          </form>
+          <br>
+          <div class="container-boton-jugar">
+              <button id="botonjugar" class="boton-jugar"> ► JUGAR </button> 
+          </div>
+      </div>
+  </section>
+  <section id="respuestas" class="respuestas">
+      <div class="container-inputs">
+      <div class="definicion">
+          <p id="definicionactual" class="definicion-actual"></p>
+      </div>
+      <div class="container-respuesta">
+          <input type="text" class="campo-respuesta" id="camporespuesta" value=""></input>
+      </div>  
+      <div class="container-butons">
+            <button id="responder" class="boton-respuesta">RESPONDER</button>
+            <button id="pasapalabra" class="boton-pasapalabra">PASAPALABRA</button>
+            <button id="stop" class="boton-stop">STOP</button>
+      </div>
+     </div>                            
+  </section>
+  <section id="containerranking" class="container-ranking">
+      <div class="ranking">
+          <p id="puntuacion" class="puntuacion"></p>
+          <h2 class="tituloranking"> ~~Ranking~~</h2>
+          <div id="rankingtotal" class="rankingtotal"></div>
+          <button id="volverjugar" class="boton-volverjugar">Volver a jugar</button>
+
+      </div>
+
+  </section>
+
+  <section id="todascorrectas" class="todascorrectas">
+        <button id="cerrar" class="cerrar">X</button>
+        <p class="titulotodascorrectas">¡¡¡HAS COMPLETADO EL ROSCO SIN FALLOS!!!</p>
+        <img src="https://media1.tenor.com/images/bfed37d40af234fc3f3a6fcb150015a0/tenor.gif?itemid=11614437" alt="Funny image">
+  </section>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
